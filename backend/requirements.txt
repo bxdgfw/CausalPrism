@@ -1,0 +1,8 @@
+Flask==3.0.2
+Flask_Cors==4.0.0
+numpy==1.24.3
+pandas==2.0.3
+pymoo==0.6.1.1
+scikit_learn==1.3.0
+scipy==1.11.1
+umap_learn==0.5.5

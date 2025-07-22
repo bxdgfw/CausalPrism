@@ -1,0 +1,83 @@
+#subgroup-view {
+  user-select: none;
+  rect.bar {
+    fill: $primary-color;
+  }
+  rect.include {
+    fill: $included-color;
+    stroke: $included-color;
+  }
+  rect.exclude {
+    fill: $excluded-color;
+    stroke: $excluded-color;
+  }
+  rect.highlight {
+    stroke: $highlight-color;
+  }
+  path {
+    stroke: $primary-color;
+  }
+  path.include {
+    stroke: $included-color;
+  }
+  path.exclude {
+    stroke: $excluded-color;
+  }
+  text.label {
+    fill: $label-color;
+  }
+  circle.legend {
+    fill: $outcome-color;
+  }
+  line {
+    stroke: $primary-color;
+  }
+  rect.selected {
+    stroke: $highlight-color;
+  }
+  rect.treated {
+    fill: $treatment-in-subgroup-color;
+    stroke: #fff;
+  }
+  .legend {
+    font-size: 0.9rem;
+  }
+}
+
+.type {
+  position: absolute;
+  left: 19rem;
+  top: 4.2rem;
+}
+
+.filter {
+  position: absolute;
+  display: flex;
+  width: 40rem;
+  left: 19rem;
+  height: 2rem;
+  top: 0.6rem;
+  .filter-row {
+    display: flex;
+    width: 13rem;
+    > span {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+      line-height: 2rem;
+    }
+    .ant-select {
+      width: 16rem;
+    }
+    .ant-slider {
+      width: 4rem;
+    }
+    .ant-input-number {
+      width: 3rem;
+    }
+    input.ant-input-number-input {
+      padding: 0 5px;
+    }
+  }
+}

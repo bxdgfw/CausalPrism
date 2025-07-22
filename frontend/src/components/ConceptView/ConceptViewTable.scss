@@ -1,0 +1,37 @@
+.table-concepts {
+  rect {
+    fill: $primary-color;
+  }
+  rect.selected {
+    fill: $highlight-color;
+  }
+  circle {
+    fill: $primary-color;
+  }
+  circle.selected {
+    fill: $highlight-color;
+  }
+}
+.attributes-detail {
+  path {
+    fill: $primary-color;
+  }
+  rect {
+    fill: $primary-color;
+  }
+}
+.hightlight-clip {
+  rect {
+    fill: $highlight-color;
+  }
+}
+.table-lines {
+  line {
+    stroke: #e3e2e7;
+  }
+}
+.table-attributes {
+  .table-attribute {
+    // font-size: 16;
+  }
+}

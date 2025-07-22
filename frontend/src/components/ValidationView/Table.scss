@@ -1,0 +1,43 @@
+.table-container {
+  width: 450px;
+  .table-columns {
+    overflow: hidden;
+    table {
+      width: 100%;
+      thead {
+        tr {
+          th.fixed {
+            background-color: white;
+            z-index: 1;
+          }
+          th {
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+  .table-body {
+    position: relative;
+    height: 240px;
+    overflow: auto scroll;
+    table {
+      width: 300px;
+      border-collapse: collapse;
+      tbody {
+        td.fixed {
+          background-color: white;
+          z-index: 1;
+        }
+        td {
+          width: 100%;
+          text-align: start;
+          overflow-wrap: break-word;
+          td > div {
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+#float-window {
+  position: absolute;
+  top: 18rem;
+  left: 16rem;
+  z-index: 99;
+  width: 36rem;
+  height: 20rem;
+  border: 0.125rem solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  // display: flex;
+  scale: 0.9;
+  .float-window-head {
+    height: 3.5rem;
+    padding: 0 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    input {
+      font-size: 1.1rem;
+      width: 10rem;
+    }
+    .ant-btn {
+      margin-right: 3rem;
+    }
+  }
+  .float-window-content {
+    display: flex;
+    .float-window-left {
+      padding: 0 0.5rem;
+      width: 10rem;
+
+      .float-window-left-bottom {
+        // margin-top: 1rem;
+        .attribute-list {
+          width: 10 rem;
+          height: 16rem;
+          overflow-y: auto;
+          overflow-x: hidden;
+          .attribute-item {
+            height: 5rem;
+            width: 9.2rem;
+            border: 0.125rem solid #ccc;
+            border-bottom: 0;
+            .attribute-item-name {
+              font-size: 1.1rem;
+              font-weight: 500;
+              line-height: 1.5rem;
+              max-width: 9.2rem;
+              text-overflow: ellipsis;
+              display: inline-block;
+              white-space: nowrap;
+              overflow: hidden;
+            }
+            .attribute-item-chart {
+              float: right;
+              width: 5.4rem;
+              height: 3rem;
+            }
+          }
+          .attribute-item:last-child {
+            border-bottom: 0.125rem solid #ccc;
+          }
+          .attribute-item.selected {
+            background-color: #ddd;
+          }
+        }
+      }
+    }
+    .float-window-right {
+      width: 25rem;
+      padding: 0 0.5rem;
+      .float-window-right-top {
+        width: 22rem;
+        height: 4rem;
+        .string-filter {
+          > span {
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+            vertical-align: middle;
+          }
+          .ant-tag {
+            max-width: 6rem;
+            text-overflow: ellipsis;
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+        }
+        .number-filter {
+          font-size: 1.1rem;
+          div.input {
+            height: 30px;
+            div {
+              line-height: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
+      .float-window-right-bottom {
+        svg {
+          height: 14rem;
+          width: 100%;
+          .bars {
+            rect {
+              fill: $primary-color;
+            }
+            rect.selected {
+              fill: $highlight-color;
+            }
+          }
+          .line {
+            fill: $primary-color;
+          }
+          rect.line-chart-shadow {
+            // fill: $shadow-fill-color;
+            // stroke: $shadow-stroke-color;
+            fill: $highlight-color;
+          }
+        }
+      }
+    }
+  }
+
+  .close-float-window {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}

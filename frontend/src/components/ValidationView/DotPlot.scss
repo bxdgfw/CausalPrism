@@ -1,0 +1,121 @@
+#dot-plot {
+  circle {
+    fill: $primary-color;
+  }
+
+  g.pots {
+    circle {
+      fill: $primary-color;
+    }
+    circle.selected {
+      fill: $highlight-color;
+    }
+  }
+
+  g.mean {
+    rect {
+      fill: $primary-color;
+    }
+  }
+  g.confidence {
+    rect {
+      fill: $primary-color;
+    }
+  }
+}
+.pair {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  // margin-top: 2rem;
+  width: 100%;
+  .info {
+    border: 0.15rem solid #e0e0e0;
+    width: 14rem;
+    height: 10.5rem;
+    padding: 1rem;
+    color: #acacac;
+    font-size: 1.2rem;
+    font-weight: 500;
+    .info-item {
+      // q: 首字母大写
+      text-transform: capitalize;
+    }
+  }
+  table {
+    border-collapse: collapse;
+    height: 100%;
+    tr > th {
+      text-align: center !important;
+    }
+    tr {
+      border: 2px solid transparent;
+    }
+    tr:nth-child(1) {
+      border: none;
+    }
+    // tr:nth-child(4n) > td {
+    //   background-color: #ebebeb;
+    // }
+    tr:nth-child(2n + 3) {
+      // background-color: #d4d3d3;
+      border-bottom: 2px solid #a5a5a5;
+    }
+    tr {
+      td.ant-table-cell {
+        padding: 0 !important;
+        .ant-typography {
+          margin-bottom: 0;
+          position: relative;
+          z-index: 1;
+        }
+      }
+      td > div {
+        height: 100%;
+        text-align: center;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        position: relative;
+        overflow: hidden;
+        > span {
+          position: relative;
+          z-index: 1;
+        }
+        > div.bg {
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 0;
+          background-color: #e7e7e7;
+        }
+      }
+    }
+    tr.ant-table-row {
+      td > div {
+        padding: 10px 0;
+      }
+    }
+    .table-content {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+  .highlight {
+    table {
+      tbody {
+        tr:nth-child(2) {
+          border: 2px solid $highlight-color;
+          border-bottom: none;
+        }
+        tr:nth-child(3) {
+          border: 2px solid $highlight-color;
+          border-top: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+$primary-color: #afafaf;
+$highlight-color: #f1a340;
+$shadow-fill-color: #dbdbdb;
+$shadow-stroke-color: #757575;
+$included-color: #5ab4ac;
+$excluded-color: #af8dc3;
+$outcome-color: #67a9cf;
+$positive-color: #93b366;
+$negative-color: #c67269;
+$treatment-in-subgroup-color: #6b727c;
+$label-color: #656565;
+$treatment-color: #d8b365;
+$control-color: #e9a3c9;
+
+/* 全局滚动条样式*/
+::-webkit-scrollbar {
+  width: 0.375rem;
+  height: 0.625rem;
+}
+::-webkit-scrollbar-track {
+  background: rgb(236, 236, 236);
+  border-radius: 0.625rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 0.625rem;
+}

@@ -1,0 +1,223 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  //height:58.5rem;
+  .top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .left {
+    margin: 0.5rem 0;
+    width: 85.2rem;
+    height: 38rem;
+    position: relative;
+  }
+  .right {
+    margin: 0.5rem 0;
+    width: 33.3rem;
+    height: 38rem; // Add a semicolon at the end
+    position: relative;
+  }
+
+  .bottom {
+    margin: 0 0;
+    width: 119rem;
+    height: 25.5rem;
+    position: relative;
+  }
+}
+
+.card1 {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  .card-title {
+    height: 3rem;
+    // display: flex;
+    align-items: center;
+    .title-icon {
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-right: 0.5rem;
+    }
+    .title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .title-left {
+      width: 30.75rem;
+      .title {
+        span.tables {
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin-left: 1rem;
+        }
+        .ant-select-selector {
+          height: 2rem !important;
+          line-height: 2rem !important;
+          font-size: 1rem !important;
+          .ant-select-selection-item {
+            line-height: 2rem !important;
+            font-size: 1rem !important;
+          }
+        }
+      }
+    }
+    .title-right {
+      margin-left: 2rem;
+      width: 58rem;
+    }
+    .under-line {
+      margin-top: 0.2rem;
+      width: 100%;
+      height: 0.4rem;
+      background-color: #e0e0e0;
+    }
+  }
+  .card-content {
+    width: 80.5rem;
+    height: 34.2rem;
+    .grid {
+      display: grid;
+      grid-template-columns: 45.5rem 39rem;
+    }
+  }
+}
+
+.card2 {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  .card-title {
+    height: 3rem;
+    // display: flex;
+    align-items: center;
+    .title-icon {
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-right: 0.5rem;
+    }
+    .title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .title-left {
+      width: 30.75rem;
+      .title {
+        span.tables {
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin-left: 1rem;
+        }
+        .ant-select-selector {
+          height: 2rem !important;
+          line-height: 2rem !important;
+          font-size: 1rem !important;
+          .ant-select-selection-item {
+            line-height: 2rem !important;
+            font-size: 1rem !important;
+          }
+        }
+      }
+    }
+    .title-right {
+      margin-left: 2rem;
+      width: 58rem;
+    }
+    .under-line {
+      margin-top: 0.2rem;
+      width: 100%;
+      height: 0.4rem;
+      background-color: #e0e0e0;
+    }
+  }
+  .card-content {
+    width: 33.5rem;
+    height: 34.2rem;
+  }
+}
+
+.card3 {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  .card-title {
+    height: 3rem;
+    // display: flex;
+    align-items: center;
+    .title-icon {
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-right: 0.5rem;
+    }
+    .title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .title-left {
+      width: 30.75rem;
+      .title {
+        span.tables {
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin-left: 1rem;
+        }
+        .ant-select-selector {
+          height: 2rem !important;
+          line-height: 2rem !important;
+          font-size: 1rem !important;
+          .ant-select-selection-item {
+            line-height: 2rem !important;
+            font-size: 1rem !important;
+          }
+        }
+      }
+    }
+    .title-right {
+      margin-left: 2rem;
+      width: 58rem;
+    }
+    .under-line {
+      margin-top: 0.2rem;
+      width: 100%;
+      height: 0.4rem;
+      background-color: #e0e0e0;
+    }
+  }
+  .card-content {
+    width: 119rem;
+    height: 20.3rem;
+  }
+}
+.Subgroup-view {
+  display: flex;
+  // align-items: center;
+  //justify-content: center;
+  flex-direction: column;
+}
+
+.validation-view {
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

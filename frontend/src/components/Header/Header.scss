@@ -1,0 +1,73 @@
+#header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  #header-title {
+    display: flex;
+    font-size: 2.4rem;
+    align-items: center;
+    font-weight: 700;
+    .header-icon {
+      height: 2rem;
+      margin: 0 0.5rem;
+    }
+  }
+  #header-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+    span {
+      //display: flex;
+      white-space: nowrap;
+      font-size: 1.5rem;
+      font-weight: 600;
+      // margin-left: 0.5rem;
+    }
+    span.ant-select-arrow > span {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      margin-right: -0.5rem;
+    }
+    span.tables {
+      margin-left: 1.5rem;
+      font-size: 1.4rem;
+    }
+    .ant-slider .ant-slider-rail {
+      background-color: #fff;
+    }
+    span.ant-select-selection-item {
+      font-size: 1rem;
+    }
+    .ant-select-selector {
+      height: 2rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      // width: 10rem;
+      span {
+        font-weight: 400;
+      }
+    }
+    .hr {
+      width: 0;
+      height: 2rem;
+      border: 1px solid #fff;
+      margin-left: 1rem;
+    }
+    .header-icon {
+      width: 2rem;
+      height: 2rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+  .MinCoverage {
+    width: 4rem;
+    height: 2rem;
+  }
+}

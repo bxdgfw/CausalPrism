@@ -1,0 +1,24 @@
+#graph {
+  height: 500px;
+  width: 1080px;
+  svg {
+    height: 500px;
+    width: 1080px;
+
+    .nodes circle {
+      fill: #fff;
+      stroke: steelblue;
+      stroke-width: 3px;
+    }
+
+    .nodes text {
+      font: 12px sans-serif;
+    }
+
+    .links {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 2px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.concept-view-header {
+  .info {
+    text {
+      font-weight: 600;
+    }
+  }
+  .bar-chart {
+    .bar-chart-bars {
+      rect.selected {
+        fill: $highlight-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+header.le-header {
+  height: 113px;
+}
+
+section .lu-th-label {
+  padding-left: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: inherit;
+  height: 50px;
+}

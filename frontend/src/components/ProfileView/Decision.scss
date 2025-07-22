@@ -1,0 +1,20 @@
+.decision {
+  .DecisionRule {
+    text {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+}
+svg#decisionRulesSvg {
+  .decision-rules {
+    .decision-rule {
+      .decision-rule-name {
+        font-weight: 500;
+      }
+      .decision-rule-bar {
+        fill: $primary-color;
+      }
+    }
+  }
+}

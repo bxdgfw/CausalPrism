@@ -1,0 +1,22 @@
+#density-bar {
+  overflow: visible;
+  rect.treatment {
+    fill: $treatment-color;
+    stroke: #fff;
+    stroke-width: 1;
+    opacity: 1;
+    mix-blend-mode: multiply;
+  }
+  rect.control {
+    fill: $control-color;
+    stroke: #fff;
+    stroke-width: 1;
+    mix-blend-mode: multiply;
+  }
+  rect.matched {
+    fill: #c57250;
+    stroke: #fff;
+    stroke-width: 1;
+    mix-blend-mode: multiply;
+  }
+}

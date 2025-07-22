@@ -1,0 +1,25 @@
+.title {
+  text {
+    // font-size: 1.2rem;
+  }
+}
+
+svg {
+  .bar-chart-bars {
+    rect {
+      fill: $primary-color;
+    }
+    rect.select {
+      fill: $highlight-color;
+    }
+  }
+  path.line-chart-line {
+    // stroke: $primary-color;
+    fill: $primary-color;
+  }
+  rect.line-chart-shadow {
+    // fill: $shadow-fill-color;
+    // stroke: $shadow-stroke-color;
+    fill: $highlight-color;
+  }
+}
