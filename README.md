@@ -4,11 +4,13 @@ CausalPrism is a web-based application. Its front-end is written in React and Ja
 
 ## Directory Structure
 
-- frontend: compressed files for the visual interface，decompression required before use
+- frontend: files for the visual interface
 - backend: subgroup discovery algorithms and datasets
 - evaluation: code for quantitative experiments, with settings in the PDF
 
 ## Running Instruction
+
+#### run the CausalPrism system:
 
 - create virtual environment
   - conda create -n causal python=3.9
@@ -21,3 +23,41 @@ CausalPrism is a web-based application. Its front-end is written in React and Ja
   - cd frontend
   - yarn
   - yarn start
+
+
+
+#### run the quantitative experiments:
+
+1. **Navigate to the evaluation directory**:
+
+   ```
+   cd backend
+   cd evaluation
+   ```
+
+2. **Install Jupyter support** (if not already installed in your environment):
+
+   ```
+   conda activate causal
+   pip install jupyter
+   ```
+
+3. **Launch Jupyter Notebook**:
+
+   ```
+   jupyter notebook
+   ```
+
+4. **Open and run the notebook**:
+
+   - In your web browser, open `evaluation.ipynb`
+   - Select the `causal` kernel:
+     `Kernel` → `Change kernel` → `causal` (Python 3.9)
+   - Execute all cells:
+     `Cell` → `Run All`
+
+5. **View results**:
+
+   - All experimental outputs excel will be stored in `results/` directory
+
+     
