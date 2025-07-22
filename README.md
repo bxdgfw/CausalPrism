@@ -24,6 +24,8 @@ CausalPrism is a web-based application. Its front-end is written in React and Ja
   - yarn
   - yarn start
 
+（Then you can see our system through the browser. If you want to completely replicate the case study part in our paper, you can follow the entire process in the video）
+
 
 
 #### run the quantitative experiments:
